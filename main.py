@@ -7,8 +7,3 @@ df = pd.read_csv(url)
 print(df.head())
 # Display summary statistics of the dataset
 print(df.describe())
-# Check for missing values
-print(df.isnull().sum())
-# Group the data by species and calculate the mean of each group
-grouped = df.groupby('species').mean()
-print(grouped)
