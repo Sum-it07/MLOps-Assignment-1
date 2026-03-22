@@ -26,10 +26,6 @@ pip install -r requirements.txt
 └── requirements.txt
 ```
 
-## Usage
-```bash
-python src/main.py
-```
 
 ## Features
 - Model training
